@@ -17,6 +17,8 @@ To run docker image, type:
 docker run -it casmverify
 ```
 
+`Note`: If you are using Docker in MacOS, make sure that increase the memory usage limit set by Docker (defaults at 2GB). We have tested with 8GB limit and the benchmarks ran correctly. In order to increase the memory usage limit, find the Docker icon at the top right of the screen (looks like a whale) -> preferences -> advanced tab -> increase the memory usage limit.
+
 ## Testing benchmarks
 We provide bash scripts that automatically runs the command to test CASM_Verify's benchmarks. Since running all CASM_Verify's benchmarks will take well over 24 hours, we divided the entire test cases into small sections.
 
